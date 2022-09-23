@@ -196,8 +196,8 @@ z-index: 999;
 }
 
 .main {
-    /*background-color: #141414;*/
-
+    background-color: #141414;
+    line-height: 1.5;
 }
 .main__container{
     margin:auto;
@@ -213,9 +213,10 @@ z-index: 999;
     width: 60%;
 }
 .row{
-    display:flex
+    display:flex;
+    justify-content: center;
 }
 .column{
-    flex:20%
-    padding:5px
+    flex:20%;
+    padding:5px;
 }
