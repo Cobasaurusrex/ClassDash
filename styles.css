@@ -225,6 +225,7 @@ img.rounded-corners{
 }
 body{
     background-color:3d3d3d;
+    height:100vh;
 }
 .logo{
     border-radius: 25px;
