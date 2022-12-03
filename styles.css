@@ -19,7 +19,7 @@ z-index: 998;
 }
 
 .navbar__container{
-    display:flex;
+    
     justify-content: space-between;
     height: 80px;
     z-index: 1;
@@ -27,6 +27,7 @@ z-index: 998;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    display:flex;
 }
 
 #navbar__logo{
@@ -42,6 +43,8 @@ z-index: 998;
     cursor:pointer;
     text-decoration: none;
     font-size: 2rem;
+    padding-top: 25px;
+    padding-left: 10px;
 }
 
 .fa-gem{
@@ -137,6 +140,9 @@ z-index: 998;
 
     #navbar__logo{
         padding-left: 25px;
+        /*
+        display:flex;
+        */
     }
 
     .navbar__toggle .bar{
@@ -198,6 +204,7 @@ z-index: 998;
 .main {
     background-color: #141414;
     line-height: 1.5;
+
 }
 .main__container{
     margin:auto;
@@ -210,22 +217,23 @@ z-index: 998;
     padding: 5%;
     color: #aaaaaa;
     background-color: #212121;
-    width: 60%;
+    width: 55%;/*maybe?*/
 }
 .row{
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 .column{
-    flex:20%;
-    padding:5px;
+    flex: 20%;
+    padding: 5px;
+    
 }
 img.rounded-corners{
-    border-radius: 50%
+    border-radius: 50%;
 }
 body{
     background-color: #3d3d3d;
-    height:100vh;
+    height: 100vh;
 }
 .logo{
     border-radius: 25px;
@@ -233,4 +241,7 @@ body{
     background-color: #d1ceef;
     padding: 10px;
     z-index: 999;
+}
+.logoset{
+    display:flex;
 }
